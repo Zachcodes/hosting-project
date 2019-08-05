@@ -5,7 +5,7 @@ const path = require('path');
 const { SERVER_PORT } = process.env;
 
 const app = express();
-
+// hello
 app.get('/api/people', c.getPeople);
 
 app.use(express.static(__dirname + '/../build'));
